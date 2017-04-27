@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         switch (item.getItemId())
         {
+            /*If Red is selected then background color changed to Red*/
             case R.id.menu_red:
                 if (item.isChecked())
                     item.setChecked(false);
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 main_view.setBackgroundColor(Color.RED);
                 return true;
 
+            /*If Blue is selected then background color changed to Blue*/
             case R.id.menu_blue:
                 if (item.isChecked())
                     item.setChecked(false);
@@ -46,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 main_view.setBackgroundColor(Color.BLUE);
                 return true;
 
+            /*If Green is selected then background color changed to Green*/
             case R.id.menu_green:
                 if (item.isChecked())
                     item.setChecked(false);
